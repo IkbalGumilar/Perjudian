@@ -1,0 +1,23 @@
+{
+    "format_version": 1,
+    "header": {
+        "description": "§l§aDibuat Oleh Ikbal",
+        "name": "§l§dJudi Add-On Versi 1B",
+        "uuid": "1acf1d2a-7e3a-1be2-fa01-8158303116e1",
+        "version": [1, 0, 0]
+    },
+    "modules": [
+        {
+            "description": "§l§fDibuat Oleh Ikbal",
+            "type": "data",
+            "uuid": "ff07e35a-2c9c-1e1e-a9b9-fc4efa2247eb",
+            "version": [1, 0, 0]
+        }
+     ],
+    "dependencies": [
+     {
+      "version": [1, 0, 0],
+      "uuid": "3f26ae22-d4e3-1247-bc3e-169e98e68377"
+        }
+    ]
+}
