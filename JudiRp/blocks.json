@@ -1,0 +1,29 @@
+{
+ "format_version":
+  [ 1,  0, 0 ],
+
+ "Judi:random_lv1": {
+  "textures": "random_lv1",
+  "sound": "wood"
+ },
+ "Judi:Equipment_lv1": {
+  "textures": "Equipment_lv1",
+  "sound": "metal"
+ },
+ "Judi:Equipment_lv2": {
+  "textures": "Equipment_lv2",
+  "sound": "metal"
+ },
+ "Judi:Equipment_lv3": {
+  "textures": "Equipment_lv3",
+  "sound": "metal"
+ },
+ "Judi:random_lv2": {
+  "textures": "random_lv2",
+  "sound": "stone"
+ },
+ "Judi:random_lv3": {
+  "textures": "random_lv3",
+  "sound": "metal"
+ }
+}
