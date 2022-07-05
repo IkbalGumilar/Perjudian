@@ -1,0 +1,1425 @@
+{
+  "format_version": "1.16.100",
+  "minecraft:block": {
+    "description": {
+      "identifier": "Judi:random_lv3",
+      "is_experimental": false
+    },
+    "components": {
+      "minecraft:loot": "loot_tables/empty.json",
+      "minecraft:destroy_time": 0.6,
+      "minecraft:material_instances": {
+        "*": {
+          "texture": "random_lv3",
+          "render_method": "blend"
+        }
+      },
+      "minecraft:block_light_emission": 0,
+      "minecraft:flammable": {
+        "flame_odds": 0,
+        "burn_odds": 0
+      },
+      "minecraft:on_player_destroyed": {
+        "event": "lucky_block3",
+        "target": "self"
+      },
+      "minecraft:friction": 0.5,
+      "minecraft:explosion_resistance": 999,
+      "minecraft:block_light_absorption": 0,
+      "minecraft:map_color": "#db4507"
+    },
+    "events": {
+      "lucky_block3": {
+        "randomize": [
+          //Loot Tables
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/1.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/2.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/3.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/4.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/5.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/6.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/7.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/8.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/9.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/10.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/11.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/12.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/13.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/14.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/15.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/16.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/17.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/18.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/19.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/20.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/21.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/22.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/23.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/24.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/25.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/26.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/27.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/28.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/29.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/30.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/31.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/32.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/33.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/34.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/35.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/36.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/37.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/38.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/39.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/40.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/41.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/42.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/43.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/44.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/45.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/46.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/47.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/48.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/49.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/50.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/51.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/52.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/53.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/54.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/55.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/56.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/57.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/58.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/59.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/60.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/61.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/62.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/63.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/64.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/65.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/66.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/67.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/68.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/69.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/70.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/71.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/72.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/73.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/74.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/75.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/76.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/77.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/78.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/79.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/80.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/81.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/82.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/83.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/84.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/85.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/86.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/87.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/88.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/89.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/90.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/91.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/92.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/93.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/94.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/95.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/96.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/97.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/98.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/99.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/100.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/101.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/102.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/103.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/104.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/105.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/106.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/107.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/108.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/109.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/110.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/111.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/112.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/113.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/114.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/115.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/116.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/117.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/118.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/119.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/120.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/121.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/122.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/123.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/124.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/125.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/126.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/127.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/128.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/129.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/130.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/131.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/132.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/133.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/134.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/135.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/136.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/137.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/138.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/139.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/140.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/141.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/142.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/143.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/144.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/145.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/146.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/147.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/148.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/149.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/150.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/151.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/152.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/153.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/154.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/155.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/156.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/157.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/158.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/159.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/160.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/161.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/162.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/163.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/164.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/165.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/166.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/167.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/168.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/169.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/170.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/171.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/172.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/173.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/174.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/175.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/176.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/177.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/178.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/179.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/180.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/181.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/182.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/183.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/184.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/185.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/186.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/187.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/188.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/189.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/190.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/191.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/192.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/193.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/194.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/195.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/196.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/197.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/198.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/199.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/200.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/201.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/202.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/203.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/204.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/205.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/206.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/207.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/blocks/lucky_block3/208.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/chests/abandoned_mineshaft.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/gameplay/fishing/treasure.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/chests/desert_pyramid.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/chests/stronghold_crossing.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/chests/pillager_outpost.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/chests/shipwrecksupply.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/chests/village_two_room_house.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/chests/end_city_treasure.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/chests/buriedtreasure.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/chests/jungle_temple.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/chests/underwater_ruin_big.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/chests/igloo_chest.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/chests/stronghold_corridor.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/chests/nether_bridge.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/chests/shipwrecktreasure.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/chests/shipwreck.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/chests/underwater_ruin_small.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/chests/simple_dungeon.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/chests/stronghold_library.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/chests/monster_room.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/chests/spawn_bonus_chest.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/chests/woodland_mansion.json"
+            }
+          },
+          {
+            "weight": 1,
+            "spawn_loot": {
+              "table": "loot_tables/chests/village_blacksmith.json"
+            }
+          }
+        ]
+      }
+    }
+  }
+}
